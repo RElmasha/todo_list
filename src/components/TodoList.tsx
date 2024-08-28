@@ -1,30 +1,3 @@
-/* Objectif
-
-Développer une application de liste de tâches simple en utilisant React.js. L'application permettra aux utilisateurs d'ajouter, de supprimer et de marquer des tâches comme terminées.
-
- 
-
-Fonctionnalités
-
-  1. Ajouter une Tâche
-
-L'utilisateur peut entrer du texte dans le champ et cliquer sur le bouton pour ajouter la tâche à la liste. La tâche doit apparaître avec une case à cocher (non coché).
-
-  2. Marquer comme Terminé
-
-L'utilisateur peut cocher une case pour marquer une tâche comme terminée. La tâche marquée doit être visuellement distinguée (par exemple, en rayant le texte ou en changeant la couleur).
-
-  3. Supprimer une Tâche
-
-L'utilisateur peut supprimer une tâche en cliquant sur un bouton ou une icône à côté de chaque tâche.
-
-  4. Gestion des Tâches
-
-Les tâches doivent être stockées dans l'état local de l'application et mises à jour en conséquence.
-
-  */
-
-
 import React, { useState } from "react";
 
 // Définition de l'interface pour les tâches
