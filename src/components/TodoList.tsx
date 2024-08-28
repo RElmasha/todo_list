@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-
+import { useState } from "react";
 // Définition de l'interface pour les tâches
 interface ITodo {
     id: number;
@@ -47,7 +46,6 @@ const TodoList = () => {
 
     return (
         <div>
-            <h1>Todo List</h1>
             <ul>
                 {todos.map((todo) => (
                     <li key={todo.id}>
